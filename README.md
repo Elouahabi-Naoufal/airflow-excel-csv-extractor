@@ -15,7 +15,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -23,7 +22,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow">
+  <a href="https://github.com/Elouahabi-Naoufal/airflow-excel-csv-extractor">
     <h3 align="center">Excel CSV Data Extractor</h3>
   </a>
 
@@ -31,16 +30,16 @@
     Upload a spreadsheet, land it in PostgreSQL as a table, and inspect it through a React UI —
     with an Airflow 3 stack available for scheduled reprocessing.
     <br />
-    <a href="https://github.com/Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow/tree/main/backend">Explore the source »</a>
+    <a href="https://github.com/Elouahabi-Naoufal/airflow-excel-csv-extractor/tree/main/backend">Explore the source »</a>
     <br />
     <br />
-    <a href="https://github.com/Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow/tree/main/backend">Backend</a>
+    <a href="https://github.com/Elouahabi-Naoufal/airflow-excel-csv-extractor/tree/main/backend">Backend</a>
     &middot;
-    <a href="https://github.com/Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow/tree/main/frontend">Frontend</a>
+    <a href="https://github.com/Elouahabi-Naoufal/airflow-excel-csv-extractor/tree/main/frontend">Frontend</a>
     &middot;
-    <a href="https://github.com/Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow/issues">Report Bug</a>
+    <a href="https://github.com/Elouahabi-Naoufal/airflow-excel-csv-extractor/issues">Report Bug</a>
     &middot;
-    <a href="https://github.com/Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow/issues/new?labels=enhancement">Request Feature</a>
+    <a href="https://github.com/Elouahabi-Naoufal/airflow-excel-csv-extractor/issues/new?labels=enhancement">Request Feature</a>
   </p>
 </div>
 
@@ -256,8 +255,8 @@ dev server. Airflow is optional but is what gives you the scheduled reprocessing
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow.git
-   cd Excel_csv_data_extractor_Airflow
+   git clone https://github.com/Elouahabi-Naoufal/airflow-excel-csv-extractor.git
+   cd airflow-excel-csv-extractor
    ```
 
 2. Start PostgreSQL (and Airflow, if you want it) from the Compose file
@@ -429,7 +428,7 @@ callable prints a message and returns a dict; the dashboard update itself is a c
       `api.py` and `process_files` in `excel_csv_processor.py`; having the API trigger the DAG through
       the Airflow REST API would keep one implementation.
 
-See the [open issues](https://github.com/Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Elouahabi-Naoufal/airflow-excel-csv-extractor/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -455,8 +454,8 @@ fastest way to catch a type error.
 
 ### Top contributors:
 
-<a href="https://github.com/Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow" alt="contrib.rocks image" />
+<a href="https://github.com/Elouahabi-Naoufal/airflow-excel-csv-extractor/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Elouahabi-Naoufal/airflow-excel-csv-extractor" alt="contrib.rocks image" />
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -466,9 +465,7 @@ fastest way to catch a type error.
 <!-- LICENSE -->
 ## License
 
-No license file is currently bundled with this repository. Until one is added, the default GitHub
-terms apply and the repository should be treated as unlicensed — do not redistribute it without
-asking.
+This project is not licensed — all rights reserved.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -479,7 +476,7 @@ asking.
 
 Naoufal Elouahabi - [LinkedIn](https://www.linkedin.com/in/elouahabi-naoufal/) - elouahabi-naoufal1@gmail.com
 
-Project Link: [https://github.com/Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow](https://github.com/Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow)
+Project Link: [https://github.com/Elouahabi-Naoufal/airflow-excel-csv-extractor](https://github.com/Elouahabi-Naoufal/airflow-excel-csv-extractor)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -502,16 +499,14 @@ Project Link: [https://github.com/Elouahabi-Naoufal/Excel_csv_data_extractor_Air
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow.svg?style=for-the-badge
-[contributors-url]: https://github.com/Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow.svg?style=for-the-badge
-[forks-url]: https://github.com/Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow/network/members
-[stars-shield]: https://img.shields.io/github/stars/Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow.svg?style=for-the-badge
-[stars-url]: https://github.com/Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow.svg?style=for-the-badge
-[issues-url]: https://github.com/Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow/issues
-[license-shield]: https://img.shields.io/github/license/Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow.svg?style=for-the-badge
-[license-url]: https://github.com/Elouahabi-Naoufal/Excel_csv_data_extractor_Airflow
+[contributors-shield]: https://img.shields.io/github/contributors/Elouahabi-Naoufal/airflow-excel-csv-extractor.svg?style=for-the-badge
+[contributors-url]: https://github.com/Elouahabi-Naoufal/airflow-excel-csv-extractor/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Elouahabi-Naoufal/airflow-excel-csv-extractor.svg?style=for-the-badge
+[forks-url]: https://github.com/Elouahabi-Naoufal/airflow-excel-csv-extractor/network/members
+[stars-shield]: https://img.shields.io/github/stars/Elouahabi-Naoufal/airflow-excel-csv-extractor.svg?style=for-the-badge
+[stars-url]: https://github.com/Elouahabi-Naoufal/airflow-excel-csv-extractor/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Elouahabi-Naoufal/airflow-excel-csv-extractor.svg?style=for-the-badge
+[issues-url]: https://github.com/Elouahabi-Naoufal/airflow-excel-csv-extractor/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/elouahabi-naoufal/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
